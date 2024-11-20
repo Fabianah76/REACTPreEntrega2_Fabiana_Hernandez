@@ -46,25 +46,25 @@ const products= [
         name: "Jeans acampanados",
         description: "Jeans de estilo retro", 
         price: 44.99, 
-        image: "url_a_imagen_20", 
+        image: "https://as1.ftcdn.net/v2/jpg/04/85/76/86/1000_F_485768629_vQdcWapVm2yxhnYFA9uxTMHNtmmoUSJP.jpg", 
         category: "Bottoms",
     },
 
 
     {   
         id: 7, 
-        name: "Sandalias de verano", 
-        description: "Sandalias cómodas para el verano",
+        name: "Sandalias con tachas", 
+        description: "Sandalias negras con tachas",
         price: 19.99, 
-        image: "url_a_imagen_25", 
+        image: "https://as2.ftcdn.net/v2/jpg/05/32/74/45/1000_F_532744578_5rySrD0q5R6KoC60u0GrmHBGLIGYh6ow.jpg", 
         category: "Calzado",
     },
         
     {   id: 8, 
         name: "Botines de cuero", 
-        description: "Botines de cuero elegantes", 
+        description: "Botines de cuero marones de caña alta", 
         price: 69.99, 
-        image: "url_a_imagen_26", 
+        image: "https://t4.ftcdn.net/jpg/10/31/45/99/240_F_1031459992_KmQrmEYiAL4ketpe1pDETo3oXT70U0i9.jpg", 
         category: "Calzado",
     },
 
@@ -73,36 +73,11 @@ const products= [
         name: "Zapatillas deportivas", 
         description: "Zapatillas para correr", 
         price: 59.99, 
-        image: "url_a_imagen_27",
+        image: "https://as1.ftcdn.net/v2/jpg/08/37/41/10/1000_F_837411022_VkL6NDn8nt3FuynE5vaxQH61AMSDG6aG.jpg",
         category: "Calzado",
     },
    
-
-    {   
-        id: 10, 
-        name: "Bolso de mano", 
-        description: "Bolso de mano de cuero sintético", 
-        price: 59.99, 
-        image: "url_a_imagen_37",
-        category: "Accesorios",
-    },
-
-    {   
-        id: 11, 
-        name: "Collar de perlas", 
-        description: "Collar elegante de perlas", 
-        price: 24.99, 
-        image: "url_a_imagen_38",
-        category: "Accesorios",
-     },
-
-    {   id: 12,
-        name: "Pulsera de cuero", 
-        description: "Pulsera ajustable de cuero", 
-        price: 12.99, 
-        image: "url_a_imagen_41", 
-        category: "Accesorios",
-    },
+    
 ]
 
 const getProducts = new Promise((resolve, reject) => {

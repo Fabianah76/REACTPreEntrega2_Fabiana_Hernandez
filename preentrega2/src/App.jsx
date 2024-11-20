@@ -5,6 +5,7 @@ import ItemListContainer from './Components/ItemListContainer/ItemListContainer'
 import ItemDetailContainer from './Components/ItemDetailContainer/ItemDetailContainer';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NoPage from './Paginas/NoPage';
+import Layout from './Paginas/Layout';
 
 
 function App() {
@@ -15,9 +16,10 @@ function App() {
       <NavBar />
 
       <Routes>
+        
         <Route path="/" element={<ItemListContainer saludo="Bienvenida a Poch." />} />
 
-        <Route path="/category/:idCategory" element={<ItemListContainer saludo="Bienvenida a Poch." />} />
+        <Route path="/category/:idCategory" element={<ItemListContainer />} />
 
         <Route path="/detail/:idProduct" element={<ItemDetailContainer />} />
         

@@ -20,17 +20,15 @@ function NavBar() {
                 </li>
                                
                 <li className='navbar-item'>
-                    <Link to= {"/tops"} className="button">Tops</Link>
+                    <Link to= {"category/tops"} className="button">Tops</Link>
                 </li>
                 <li className='navbar-item'>
-                    <Link to= {"/bottoms"} className="button">Bottoms</Link>  
+                    <Link to= {"category/bottoms"} className="button">Bottoms</Link>  
                 </li>
                 <li className='navbar-item'>
-                    <Link to= {"/calzado"} className="button">Calzado</Link>  
+                    <Link to= {"category/calzado"} className="button">Calzado</Link>  
                 </li>
-                <li className='navbar-item'>
-                    <Link to= {"/accesorios"} className="button">Accesorios</Link> 
-                </li>
+                
             </ul>
             <div className='carrito'> 
                 <FiShoppingCart />
