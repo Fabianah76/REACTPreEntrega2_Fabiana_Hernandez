@@ -4,7 +4,7 @@ import NavBar from './Components/Navbar/NavBar';
 import ItemListContainer from './Components/ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './Components/ItemDetailContainer/ItemDetailContainer';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./App.css";
+import NoPage from './Paginas/NoPage';
 
 
 function App() {
@@ -20,6 +20,8 @@ function App() {
         <Route path="/category/:idCategory" element={<ItemListContainer saludo="Bienvenida a Poch." />} />
 
         <Route path="/detail/:idProduct" element={<ItemDetailContainer />} />
+        
+        <Route path='*' element= {<NoPage/>}/>
 
       </Routes>    
     </BrowserRouter>
