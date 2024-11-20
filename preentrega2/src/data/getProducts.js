@@ -62,7 +62,7 @@ const products= [
         
     {   id: 8, 
         name: "Botines de cuero", 
-        description: "Botines de cuero marones de caña alta", 
+        description: "Botines de cuero marrones de caña alta", 
         price: 69.99, 
         image: "https://t4.ftcdn.net/jpg/10/31/45/99/240_F_1031459992_KmQrmEYiAL4ketpe1pDETo3oXT70U0i9.jpg", 
         category: "Calzado",
