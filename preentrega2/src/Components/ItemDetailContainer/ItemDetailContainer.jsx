@@ -11,7 +11,7 @@ const ItemDetailContainer = () => {
   useEffect(()=>{
     getProducts
       .then((respuesta)=> {
-        const newProduct = respuesta.find((product)=> product.id === idProduct )
+        const newProduct = respuesta.find((product)=> product.id == idProduct )
         setProduct(newProduct)
       })
       .catch((error)=> console.log(error))
