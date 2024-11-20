@@ -14,7 +14,8 @@ const ItemListContainer = ({ saludo }) => {
       .then((respuesta) => {
         if(idCategory){
           //filtrar los productos
-          const newProducts = respuesta.filter((producto)=> producto.category === idCategory )
+          const newProducts = respuesta.filter((producto)=> producto.category.toLowerCase() === idCategory)
+          
           setProducts(newProducts)
         }else{
           //devolver todos los productos
