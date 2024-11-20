@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 
 const Item = ({ product }) => {
   return (
+    
     <div key={product.id} className="card">
       <div className="image-box-card">
         <img className="image-card" src={product.image} alt={product.name} />

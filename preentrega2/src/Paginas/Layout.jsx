@@ -1,9 +1,11 @@
 import {Link, Outlet } from "react-router-dom"
 import { FiShoppingCart } from "react-icons/fi";
 import Stack from 'react-bootstrap/Stack';
-import "./NavBar.css";
+import "../App.css"
 
-function NavBar() {
+
+
+function Layout() {
   return (
     <>
     <Stack direction="horizontal" gap={3}>
@@ -18,7 +20,10 @@ function NavBar() {
                 <li className='navbar-item'>
                     <Link to= {"/" } className="button">Home</Link>
                 </li>
-                               
+                <li className='navbar-item'>
+                    <Link to= {"/productos" } className="button">Productos</Link>
+                </li>
+                
                 <li className='navbar-item'>
                     <Link to= {"/tops"} className="button">Tops</Link>
                 </li>
@@ -44,4 +49,4 @@ function NavBar() {
   )
 }
 
-export default NavBar
+export default Layout

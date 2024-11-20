@@ -15,9 +15,9 @@ function App() {
       <NavBar />
 
       <Routes>
-        <Route path="/" element={<ItemListContainer saludo="Nuestros productos" />} />
+        <Route path="/" element={<ItemListContainer saludo="Bienvenida a Poch." />} />
 
-        <Route path="/category/:idCategory" element={<ItemListContainer saludo="Nuestros productos" />} />
+        <Route path="/category/:idCategory" element={<ItemListContainer saludo="Bienvenida a Poch." />} />
 
         <Route path="/detail/:idProduct" element={<ItemDetailContainer />} />
 

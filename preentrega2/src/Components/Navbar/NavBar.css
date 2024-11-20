@@ -112,28 +112,3 @@ body {
     padding: 2rem;
     text-align: center;
   }
-
-.bienvenida   {
-        position: absolute;
-        display: flex;
-        margin-top: 10rem;
-        margin-left: 30rem; 
-        background-color: white;
-        color: black;
-        justify-content:center ;
-        align-items: center;
-    }
-    
-    #container {
-      display: flex;
-      gap: 20px;
-      flex-wrap: wrap;
-  }
-  
-  .card {
-      height: 300px;
-      width: 250px;
-      background-color:rgb(228, 227, 227);
-      color: black;
-      border-radius: 15px;
-      text-align: center;

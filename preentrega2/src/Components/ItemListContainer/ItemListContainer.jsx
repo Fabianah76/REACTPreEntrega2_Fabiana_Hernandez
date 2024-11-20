@@ -22,7 +22,7 @@ const ItemListContainer = ({ saludo }) => {
         }
       })
       .catch((error) => console.log(error))
-      .finally(() => console.log("Finalizo la promesa"));
+    //   .finally(() => console.log("Finalizo la promesa"));
   }, [idCategory]);
 
   return (
